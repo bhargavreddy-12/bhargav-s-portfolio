@@ -600,9 +600,12 @@ a {
 }
 
 .project-links {
-  margin-top: 8px;
+  /*margin-top: 8px;
   padding-top: 12px;
-  border-top: 1px solid var(--line);
+  border-top: 1px solid var(--line);*/
+  display: flex; 
+  gap: 16px; 
+  flex-wrap: wrap;
 }
 
 .project-links a {
